@@ -7,10 +7,10 @@ class Solution {
                 if(nums1[i]==nums2[j]) return nums1[i];
             }
         }
-        int mins=nums1[0];
+        int min1=nums1[0];
         int min2=nums2[0];
-        int a=10*mins+min2;
-        int b=10*min2+mins;
+        int a=10*min1+min2;
+        int b=10*min2+min1;
         return Math.min(a,b);
     }
 }
