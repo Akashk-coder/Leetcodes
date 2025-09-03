@@ -8,8 +8,8 @@ class Solution {
         while(res>0){
             if((res&1)==1) count++;
             res=res>>1;
-            ans[i]=count;
             }
+            ans[i]=count;
         }
         return ans;
     }
